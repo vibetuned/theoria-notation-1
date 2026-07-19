@@ -1,0 +1,52 @@
+# Notation I — the platform's true starting point, for students who cannot
+# yet read notes. After Gehrkens' Music Notation and Terminology
+# (A. S. Barnes, 1914, public domain). Video-first: exercises only in
+# modules 04 (scales), 08 (cadences), 09 (forms).
+# Scan: https://archive.org/details/musicnotationter00gehr
+# Local extraction: /home/flux/projects/book-extraction/output/gehrkens
+# assets/book/ = MIDI-derived MusicXML (pitches reliable, notation details
+# unverified). See chapter-digests.md.
+
+slug: notation-1
+title: "Notation I — after Gehrkens"
+book:
+  work: "Gehrkens, Music Notation and Terminology (A. S. Barnes, 1914)"
+  url: https://archive.org/details/musicnotationter00gehr
+
+modules:
+  - slug: 01-seeing-music
+    title: "Seeing music: the staff, clefs, and note shapes"
+    book: { chapters: ["I", "II", "III"], pages: "1-12" }
+    status: planned
+  - slug: 02-half-steps-and-spelling
+    title: "Half steps and spelling: accidentals and key signatures"
+    book: { chapters: ["II", "III"], pages: "5-12" }
+    status: planned
+  - slug: 03-time
+    title: "Time: beat, measure, and tempo"
+    book: { chapters: ["X", "XI", "XII"], pages: "44-55" }
+    status: planned
+  - slug: 04-scales-and-keys
+    title: "Scales and keys"
+    book: { chapters: ["VII", "VIII"], pages: "27-41" }
+    status: in-progress
+  - slug: 05-signs-and-expression
+    title: "Playing it right: signs and expression"
+    book: { chapters: ["IV", "V", "XIII"], pages: "13-21, 56-61" }
+    status: planned
+  - slug: 06-ornaments
+    title: "Embellishments"
+    book: { chapters: ["VI"], pages: "22-26" }
+    status: planned
+  - slug: 07-intervals
+    title: "Intervals"
+    book: { chapters: ["XVII"], pages: "82-86" }
+    status: planned
+  - slug: 08-chords-and-cadences
+    title: "Chords and cadences"
+    book: { chapters: ["XVIII"], pages: "87-94" }
+    status: planned
+  - slug: 09-form
+    title: "How music is built: forms and styles"
+    book: { chapters: ["XIV", "XV", "XVI"], pages: "62-81" }
+    status: planned

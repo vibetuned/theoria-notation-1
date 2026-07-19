@@ -1,0 +1,23 @@
+slug: 04-scales-and-keys
+title: "Scales and keys"
+book:
+  chapters: ["VII", "VIII"]
+  pages: "27-41"
+
+lessons:
+  - id: major-scale-rule
+    scene: TheMajorScaleRule
+    content: content/en/major-scale-rule.md
+  - id: three-minors
+    scene: TheThreeMinors
+    content: content/en/three-minors.md
+
+# The course's one drill family (video-first course: exercises live only
+# in modules 04, 08, 09).
+exercises:
+  - type: scale-steps
+    items: 4
+    seeds: [1, 2]
+  - type: scale-steps
+    items: 6
+    seeds: [3]
