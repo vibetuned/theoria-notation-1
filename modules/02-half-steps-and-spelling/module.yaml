@@ -7,9 +7,9 @@ book:
 lessons:
   - id: degree-modifiers
     scene: DegreeModifiers
-    content: content/en/spelling.md
+    content: content/en/degree-modifiers.md
   - id: reading-signatures
     scene: ReadingSignatures
-    content: content/en/spelling.md
+    content: content/en/reading-signatures.md
 
 exercises: []

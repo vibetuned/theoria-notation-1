@@ -7,9 +7,9 @@ book:
 lessons:
   - id: dots-ties-slurs
     scene: DotsTiesSlurs
-    content: content/en/signs-expression.md
+    content: content/en/dots-ties-slurs.md
   - id: loud-soft-roadmap
     scene: LoudSoftAndTheRoadmap
-    content: content/en/signs-expression.md
+    content: content/en/dynamics-roadmap.md
 
 exercises: []

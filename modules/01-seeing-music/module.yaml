@@ -10,6 +10,6 @@ lessons:
     content: content/en/seeing-the-staff.md
   - id: how-notes-are-drawn
     scene: HowNotesAreDrawn
-    content: content/en/seeing-the-staff.md
+    content: content/en/how-notes-are-drawn.md
 
 exercises: []

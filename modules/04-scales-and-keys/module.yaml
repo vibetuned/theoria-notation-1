@@ -7,10 +7,10 @@ book:
 lessons:
   - id: all-the-major-scales
     scene: AllTheMajorScales
-    content: content/en/all-the-scales.md
+    content: content/en/all-the-major-scales.md
   - id: all-the-minor-scales
     scene: AllTheMinorScales
-    content: content/en/all-the-scales.md
+    content: content/en/all-the-minor-scales.md
 
 # All fifteen keys as exercises, majors and the three minor forms.
 exercises:

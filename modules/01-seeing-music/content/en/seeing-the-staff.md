@@ -27,13 +27,3 @@ the grid.
    joins them into the great staff.
 4. Eleven lines, one hinge, two clefs — every note you will ever read
    lives here.
-
-## Narration (video: HowNotesAreDrawn)
-
-1. A note is a head, sometimes a stem, sometimes a hook — and each part
-   knows its manners.
-2. Below the middle line the stem points up from the right side; above,
-   down from the left. On the line itself, either serves.
-3. Short notes may share a beam instead of hooks; and the dot after a
-   note always sits in a space. Small rules — but they are why pages of
-   music look inevitable.

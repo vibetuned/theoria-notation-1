@@ -7,9 +7,9 @@ book:
 lessons:
   - id: rhythm-versus-measure
     scene: RhythmVersusMeasure
-    content: content/en/time.md
+    content: content/en/rhythm-vs-measure.md
   - id: tempo-words
     scene: TheTempoWords
-    content: content/en/time.md
+    content: content/en/tempo-words.md
 
 exercises: []
