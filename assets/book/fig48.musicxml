@@ -1,160 +1,148 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
-<score-partwise version="4.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.1">
   <work>
     <work-title>fig48</work-title>
-  </work>
+    </work>
   <movement-title>fig48</movement-title>
   <identification>
     <creator type="composer">Music21</creator>
     <encoding>
+      <software>MuseScore 3.2.3</software>
       <encoding-date>2026-07-19</encoding-date>
-      <software>music21 v.10.5.0</software>
-      <supports element="beam" type="yes" />
-      <supports element="stem" type="yes" />
-      <supports element="accidental" type="yes" />
-    </encoding>
-  </identification>
+      <supports element="accidental" type="yes"/>
+      <supports element="beam" type="yes"/>
+      <supports element="print" attribute="new-page" type="yes" value="yes"/>
+      <supports element="print" attribute="new-system" type="yes" value="yes"/>
+      <supports element="stem" type="yes"/>
+      </encoding>
+    </identification>
   <defaults>
     <scaling>
       <millimeters>7</millimeters>
       <tenths>40</tenths>
-    </scaling>
-  </defaults>
+      </scaling>
+    <page-layout>
+      <page-height>1697.14</page-height>
+      <page-width>1200</page-width>
+      <page-margins type="even">
+        <left-margin>57.1429</left-margin>
+        <right-margin>57.1429</right-margin>
+        <top-margin>57.1429</top-margin>
+        <bottom-margin>114.286</bottom-margin>
+        </page-margins>
+      <page-margins type="odd">
+        <left-margin>57.1429</left-margin>
+        <right-margin>57.1429</right-margin>
+        <top-margin>57.1429</top-margin>
+        <bottom-margin>114.286</bottom-margin>
+        </page-margins>
+      </page-layout>
+    <word-font font-family="FreeSerif" font-size="10"/>
+    <lyric-font font-family="FreeSerif" font-size="11"/>
+    </defaults>
+  <credit page="1">
+    <credit-words default-x="600" default-y="1640" justify="center" valign="top" font-size="24">fig48</credit-words>
+    </credit>
+  <credit page="1">
+    <credit-words default-x="1142.86" default-y="1540" justify="right" valign="bottom" font-size="12">Music21</credit-words>
+    </credit>
   <part-list>
-    <score-part id="P44e0156af1fb4b03aba7aa9d387a8eaf">
+    <score-part id="P1">
       <part-name>Acoustic Grand Piano</part-name>
       <part-abbreviation>Pno</part-abbreviation>
-      <score-instrument id="I12cfae5385e5276f17c882772b3ef08c">
+      <score-instrument id="P1-I1">
         <instrument-name>Acoustic Grand Piano</instrument-name>
-        <instrument-abbreviation>Pno</instrument-abbreviation>
-      </score-instrument>
-      <midi-instrument id="I12cfae5385e5276f17c882772b3ef08c">
+        </score-instrument>
+      <midi-device id="P1-I1" port="1"></midi-device>
+      <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
         <midi-program>1</midi-program>
-      </midi-instrument>
-    </score-part>
-  </part-list>
-  <!--=========================== Part 1 ===========================-->
-  <part id="P44e0156af1fb4b03aba7aa9d387a8eaf">
-    <!--========================= Measure 1 ==========================-->
-    <measure implicit="no" number="1">
+        <volume>78.7402</volume>
+        <pan>0</pan>
+        </midi-instrument>
+      </score-part>
+    </part-list>
+  <part id="P1">
+    <measure number="1" width="363.71">
+      <print>
+        <system-layout>
+          <system-margins>
+            <left-margin>0.00</left-margin>
+            <right-margin>722.00</right-margin>
+            </system-margins>
+          <top-system-distance>170.00</top-system-distance>
+          </system-layout>
+        </print>
       <attributes>
-        <divisions>10080</divisions>
+        <divisions>2</divisions>
         <key>
           <fifths>1</fifths>
           <mode>major</mode>
-        </key>
+          </key>
         <time>
           <beats>4</beats>
           <beat-type>4</beat-type>
-        </time>
+          </time>
         <clef>
           <sign>G</sign>
           <line>2</line>
-        </clef>
-      </attributes>
-      <direction>
+          </clef>
+        </attributes>
+      <direction placement="below">
         <direction-type>
-          <metronome parentheses="no">
+          <metronome parentheses="no" default-x="-26.00" default-y="-40.00" relative-y="-30.00">
             <beat-unit>quarter</beat-unit>
             <per-minute>100</per-minute>
-          </metronome>
-        </direction-type>
-        <sound tempo="100" />
-      </direction>
-      <note dynamics="71.11">
+            </metronome>
+          </direction-type>
+        <sound tempo="100"/>
+        </direction>
+      <note default-x="89.10" default-y="-5.00" dynamics="71.11">
         <pitch>
           <step>E</step>
           <octave>5</octave>
-        </pitch>
-        <duration>7560</duration>
-        <instrument id="I12cfae5385e5276f17c882772b3ef08c" />
-        <type>eighth</type>
-        <dot />
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
         <stem>down</stem>
-        <beam number="1">begin</beam>
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <alter>0</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>2520</duration>
-        <instrument id="I12cfae5385e5276f17c882772b3ef08c" />
-        <type>16th</type>
-        <accidental>natural</accidental>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <beam number="2">backward hook</beam>
-      </note>
-      <note>
-        <chord />
-        <pitch>
-          <step>E</step>
-          <alter>0</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>2520</duration>
-        <instrument id="I12cfae5385e5276f17c882772b3ef08c" />
-        <type>16th</type>
-        <accidental>natural</accidental>
-      </note>
-      <note>
-        <chord />
-        <pitch>
-          <step>E</step>
-          <alter>-1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>2520</duration>
-        <instrument id="I12cfae5385e5276f17c882772b3ef08c" />
-        <type>16th</type>
-        <accidental>flat</accidental>
-      </note>
-      <note>
-        <chord />
-        <pitch>
-          <step>E</step>
-          <alter>0</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>2520</duration>
-        <instrument id="I12cfae5385e5276f17c882772b3ef08c" />
-        <type>16th</type>
-        <accidental>natural</accidental>
-      </note>
-      <note dynamics="71.11">
+        </note>
+      <note default-x="187.99" default-y="5.00">
+        <grace/>
         <pitch>
           <step>G</step>
           <octave>5</octave>
-        </pitch>
-        <duration>5040</duration>
-        <instrument id="I12cfae5385e5276f17c882772b3ef08c" />
+          </pitch>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="206.44" default-y="5.00" dynamics="71.11">
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">begin</beam>
-      </note>
-      <note dynamics="71.11">
+        </note>
+      <note default-x="279.77" default-y="-5.00" dynamics="71.11">
         <pitch>
           <step>E</step>
           <octave>5</octave>
-        </pitch>
-        <duration>5040</duration>
-        <instrument id="I12cfae5385e5276f17c882772b3ef08c" />
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
-      </note>
-      <note>
-        <rest />
-        <duration>20160</duration>
-        <type>half</type>
-      </note>
+        </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
-      </barline>
-    </measure>
-  </part>
-</score-partwise>
+        </barline>
+      </measure>
+    </part>
+  </score-partwise>
