@@ -5,19 +5,24 @@ book:
   pages: "27-41"
 
 lessons:
-  - id: major-scale-rule
-    scene: TheMajorScaleRule
-    content: content/en/major-scale-rule.md
-  - id: three-minors
-    scene: TheThreeMinors
-    content: content/en/three-minors.md
+  - id: all-the-major-scales
+    scene: AllTheMajorScales
+    content: content/en/all-the-scales.md
+  - id: all-the-minor-scales
+    scene: AllTheMinorScales
+    content: content/en/all-the-scales.md
 
-# The course's one drill family (video-first course: exercises live only
-# in modules 04, 08, 09).
+# All fifteen keys as exercises, majors and the three minor forms.
 exercises:
   - type: scale-steps
-    items: 4
-    seeds: [1, 2]
+    items: 15
+    seeds: [1]
   - type: scale-steps
-    items: 6
-    seeds: [3]
+    items: 8
+    seeds: [2]
+  - type: minor-scale-steps
+    items: 15
+    seeds: [1]
+  - type: minor-scale-steps
+    items: 5
+    seeds: [2]

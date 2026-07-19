@@ -46,7 +46,3 @@ modules:
     title: "Chords and cadences"
     book: { chapters: ["XVIII"], pages: "87-94" }
     status: in-progress
-  - slug: 09-form
-    title: "How music is built: forms and styles"
-    book: { chapters: ["XIV", "XV", "XVI"], pages: "62-81" }
-    status: in-progress

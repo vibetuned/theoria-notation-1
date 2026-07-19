@@ -19,18 +19,18 @@ most likely to have mangled the *notation* (spelling/ties/ornament signs),
 not just the layout.
 
 ### 01-seeing-music (scene: HowNotesAreDrawn)
-- [ ] `fig01.musicxml` — note anatomy / stem-direction examples (ch. I).
+- [x] `fig01.musicxml` — note anatomy / stem-direction examples (ch. I).
       Stem directions and beaming ARE the content here — worth exact care.
 
 ### 02-half-steps-and-spelling (DegreeModifiers, ReadingSignatures)
-- [ ] ⚠ `fig18-23.musicxml` — Rice's six alteration rules (ch. III).
+- [x] ⚠ `fig18-23.musicxml` — Rice's six alteration rules (ch. III).
       Enharmonic SPELLING is the whole point; MIDI derivation loves to
       respell (D# as Eb). Highest priority.
-- [ ] ⚠ `fig12-13.musicxml` — the major-vs-relative-minor signature test
+- [x] ⚠ `fig12-13.musicxml` — the major-vs-relative-minor signature test
       (ch. III). Key signatures + final bass chords must be exact.
 
 ### 03-time (RhythmVersusMeasure)
-- [ ] `fig56.musicxml` — syncopation example (ch. X). Tied-note notation
+- [x] `fig56.musicxml` — syncopation example (ch. X). Tied-note notation
       vs re-struck notes matters for the point being made.
 
 ### 04-scales-and-keys (TheMajorScaleRule, TheThreeMinors)
@@ -40,38 +40,38 @@ not just the layout.
       spelling of the raised 6/7 must be right.
 
 ### 05-signs-and-expression (DotsTiesSlurs, LoudSoftAndTheRoadmap)
-- [ ] ⚠ `fig30-31.musicxml` — the tie (incl. enharmonic tie, ch. V).
+- [x] ⚠ `fig30-31.musicxml` — the tie (incl. enharmonic tie, ch. V).
       MIDI merges tied notes into one long note — the figure may have
       LOST its ties. High priority.
-- [ ] `fig32-33.musicxml` — the slur as phrase-mark (ch. V). Slurs are
+- [x] `fig32-33.musicxml` — the slur as phrase-mark (ch. V). Slurs are
       often absent from MIDI-derived files entirely.
-- [ ] `fig25-27.musicxml` — repeats / D.C. / endings (ch. IV). Repeat
+- [x] `fig25-27.musicxml` — repeats / D.C. / endings (ch. IV). Repeat
       barlines and volta brackets rarely survive MIDI.
 
 ### 06-ornaments (TheOrnamentGallery, TheLeaningNotes)
 All four show REALIZATIONS (written-out notes), which MIDI preserves —
 but the ornament SIGNS themselves (tr, mordent, turn, grace-note shapes)
-are likely gone. If the printed figures pair sign with realization, these
+are likely gone. If the printed figures pair sign with realization, theseZ
 need the sign restored by hand:
-- [ ] ⚠ `fig40.musicxml` — the trill (ch. VI)
-- [ ] ⚠ `fig45-46.musicxml` — mordent and inverted mordent
-- [ ] ⚠ `fig47.musicxml` — the turn
-- [ ] ⚠ `fig48.musicxml` — the appoggiatura (small-note shape + accent)
-- [ ] ⚠ `fig50-52.musicxml` — the acciaccatura (slashed stem)
+- [x] ⚠ `fig40.musicxml` — the trill (ch. VI)
+- [x] ⚠ `fig45-46.musicxml` — mordent and inverted mordent
+- [x] ⚠ `fig47.musicxml` — the turn
+- [x] ⚠ `fig48.musicxml` — the appoggiatura (small-note shape + accent)
+- [x] ⚠ `fig50-52.musicxml` — the acciaccatura (slashed stem)
 
 ### 07-intervals (HearingIntervals)
-- [ ] `fig62-63.musicxml` — harmonic vs melodic intervals (ch. XVII)
-- [ ] `fig64.musicxml` — intervals above the tonic (ch. XVII)
+- [x] `fig62-63.musicxml` — harmonic vs melodic intervals (ch. XVII)
+- [x] `fig64.musicxml` — intervals above the tonic (ch. XVII)
 
 ### 08-chords-and-cadences (TheTriadFamily, TheFourCadences)
 These four ALSO feed the `cadence-naming` exercises (the drill takes the
 closing two sonorities) — fixing them updates worksheets on rebuild:
-- [ ] `fig65.musicxml` — triads on every degree, major (ch. XVIII)
-- [ ] `triads.musicxml` — triads on the minor scale
-- [ ] `fig68.musicxml` — authentic cadence
-- [ ] `fig69.musicxml` — plagal cadence
-- [ ] `fig70.musicxml` — half-cadence (Bach)
-- [ ] `fig71.musicxml` — deceptive cadence (Wm. Mather)
+- [x] `fig65.musicxml` — triads on every degree, major (ch. XVIII)
+- [x] `triads.musicxml` — triads on the minor scale
+- [x] `fig68.musicxml` — authentic cadence
+- [x] `fig69.musicxml` — plagal cadence
+- [x] `fig70.musicxml` — half-cadence (Bach)
+- [x] `fig71.musicxml` — deceptive cadence (Wm. Mather)
 
 ### 09-form (FormAndStyle, PhraseToSonata)
 - [ ] `fig57.musicxml` — Mozart three-voice canon (ch. XIV)
