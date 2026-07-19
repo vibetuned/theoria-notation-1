@@ -8,31 +8,27 @@ from pathlib import Path
 
 from manimlib import DOWN, ORIGIN, UP, FadeIn, FadeOut, Scene, Text, Transform, VGroup, Write
 
-from theoria.audio import add_events_sound
 from theoria.core.examples import example_events, example_measures, load_example
-from theoria.notation.score import EngravedScore
+from theoria.notation.score import EngravedScore, scroll_play
 from theoria.theme import BLUE, HIGHLIGHT, INK, MUTED
 
 BOOK = Path(__file__).resolve().parents[2] / "assets" / "book"
 
 
-def _engraved(scene, filename, measures=None, width=11.5, max_height=4.2,
-              y_shift=0.4, seconds_per_quarter=0.5, wait_after=0.5):
+def _present(scene, filename, measures=None, seconds_per_quarter=0.5, height=2.8):
+    """Engrave a book plate at readable size and play it: notes light at
+    their onsets, and long systems scroll to follow the music."""
     xml = load_example(BOOK / filename)
     if measures is not None:
         xml = example_measures(xml, *measures)
     score = EngravedScore(xml)
-    score.set_width(width)
-    if score.get_height() > max_height:
-        score.set_height(max_height)
-    score.move_to(ORIGIN + y_shift * UP)
-    events = example_events(xml, seconds_per_quarter=seconds_per_quarter)
-    if events:
-        add_events_sound(scene, events)
-    scene.play(FadeIn(score), run_time=0.8)
-    if events:
-        total = max(start + dur for start, _, dur in events)
-        scene.wait(max(total - 0.8 + wait_after, 0.5))
+    scroll_play(
+        scene,
+        score,
+        events=example_events(xml, seconds_per_quarter=seconds_per_quarter),
+        seconds_per_quarter=seconds_per_quarter,
+        height=height,
+    )
     return score
 
 
@@ -43,7 +39,7 @@ class TheMajorScaleRule(Scene):
         self.play(Write(title))
 
         # {[2]} Checkpoint: C major from the book's fifteen-scale plate
-        score = _engraved(
+        score = _present(
             self, "scales.musicxml", measures=(1, 2), seconds_per_quarter=0.45
         )
         caption = Text(
@@ -86,8 +82,8 @@ class TheThreeMinors(Scene):
         self.play(Write(title))
 
         # {[2]} Checkpoint: the book's A minor plate, all three forms
-        score = _engraved(self, "minor.musicxml", seconds_per_quarter=0.45,
-                          wait_after=0.3)
+        # three scale forms in one long system: readable height + scroll
+        score = _present(self, "minor.musicxml", seconds_per_quarter=0.45)
         caption = Text(
             "minor begins with a smaller third: three half steps from 1 to 3",
             font_size=25,
