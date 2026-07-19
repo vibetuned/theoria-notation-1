@@ -1,0 +1,15 @@
+slug: 06-ornaments
+title: "Embellishments"
+book:
+  chapters: ["VI"]
+  pages: "22-26"
+
+lessons:
+  - id: ornament-gallery
+    scene: TheOrnamentGallery
+    content: content/en/ornament-gallery.md
+  - id: leaning-notes
+    scene: TheLeaningNotes
+    content: content/en/leaning-notes.md
+
+exercises: []

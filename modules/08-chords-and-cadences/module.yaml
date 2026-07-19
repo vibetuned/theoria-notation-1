@@ -1,0 +1,23 @@
+slug: 08-chords-and-cadences
+title: "Chords and cadences"
+book:
+  chapters: ["XVIII"]
+  pages: "87-94"
+
+lessons:
+  - id: triad-family
+    scene: TheTriadFamily
+    content: content/en/triad-family.md
+  - id: four-cadences
+    scene: TheFourCadences
+    content: content/en/four-cadences.md
+
+# One of the course's three exercise-bearing modules (04, 08, 09): the
+# drill draws its chords from the book's own cadence figures.
+exercises:
+  - type: cadence-naming
+    items: 4
+    seeds: [1, 2]
+  - type: cadence-naming
+    items: 8
+    seeds: [3]

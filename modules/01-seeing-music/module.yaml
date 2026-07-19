@@ -1,0 +1,15 @@
+slug: 01-seeing-music
+title: "Seeing music: the staff, clefs, and note shapes"
+book:
+  chapters: ["I", "II"]
+  pages: "1-7"
+
+lessons:
+  - id: seeing-the-staff
+    scene: SeeingTheStaff
+    content: content/en/seeing-the-staff.md
+  - id: how-notes-are-drawn
+    scene: HowNotesAreDrawn
+    content: content/en/seeing-the-staff.md
+
+exercises: []

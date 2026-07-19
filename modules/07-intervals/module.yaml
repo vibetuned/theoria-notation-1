@@ -1,0 +1,12 @@
+slug: 07-intervals
+title: "Intervals"
+book:
+  chapters: ["XVII"]
+  pages: "82-86"
+
+lessons:
+  - id: hearing-intervals
+    scene: HearingIntervals
+    content: content/en/hearing-intervals.md
+
+exercises: []

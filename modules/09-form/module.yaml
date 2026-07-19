@@ -1,0 +1,18 @@
+slug: 09-form
+title: "How music is built: forms and styles"
+book:
+  chapters: ["XIV", "XV", "XVI"]
+  pages: "62-81"
+
+# Form work is listening work: the module stays video-first (the plan's
+# classification quizzes fit the app's listening tools, not MusicXML
+# worksheets).
+lessons:
+  - id: form-and-style
+    scene: FormAndStyle
+    content: content/en/form.md
+  - id: phrase-to-sonata
+    scene: PhraseToSonata
+    content: content/en/form.md
+
+exercises: []

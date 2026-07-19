@@ -1,0 +1,15 @@
+slug: 03-time
+title: "Time: beat, measure, and tempo"
+book:
+  chapters: ["X", "XI", "XII"]
+  pages: "44-55"
+
+lessons:
+  - id: rhythm-versus-measure
+    scene: RhythmVersusMeasure
+    content: content/en/time.md
+  - id: tempo-words
+    scene: TheTempoWords
+    content: content/en/time.md
+
+exercises: []

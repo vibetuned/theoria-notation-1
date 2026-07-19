@@ -17,15 +17,15 @@ modules:
   - slug: 01-seeing-music
     title: "Seeing music: the staff, clefs, and note shapes"
     book: { chapters: ["I", "II", "III"], pages: "1-12" }
-    status: planned
+    status: in-progress
   - slug: 02-half-steps-and-spelling
     title: "Half steps and spelling: accidentals and key signatures"
     book: { chapters: ["II", "III"], pages: "5-12" }
-    status: planned
+    status: in-progress
   - slug: 03-time
     title: "Time: beat, measure, and tempo"
     book: { chapters: ["X", "XI", "XII"], pages: "44-55" }
-    status: planned
+    status: in-progress
   - slug: 04-scales-and-keys
     title: "Scales and keys"
     book: { chapters: ["VII", "VIII"], pages: "27-41" }
@@ -33,20 +33,20 @@ modules:
   - slug: 05-signs-and-expression
     title: "Playing it right: signs and expression"
     book: { chapters: ["IV", "V", "XIII"], pages: "13-21, 56-61" }
-    status: planned
+    status: in-progress
   - slug: 06-ornaments
     title: "Embellishments"
     book: { chapters: ["VI"], pages: "22-26" }
-    status: planned
+    status: in-progress
   - slug: 07-intervals
     title: "Intervals"
     book: { chapters: ["XVII"], pages: "82-86" }
-    status: planned
+    status: in-progress
   - slug: 08-chords-and-cadences
     title: "Chords and cadences"
     book: { chapters: ["XVIII"], pages: "87-94" }
-    status: planned
+    status: in-progress
   - slug: 09-form
     title: "How music is built: forms and styles"
     book: { chapters: ["XIV", "XV", "XVI"], pages: "62-81" }
-    status: planned
+    status: in-progress

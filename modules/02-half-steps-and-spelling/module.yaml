@@ -1,0 +1,15 @@
+slug: 02-half-steps-and-spelling
+title: "Half steps and spelling: accidentals and key signatures"
+book:
+  chapters: ["II", "III"]
+  pages: "5-12"
+
+lessons:
+  - id: degree-modifiers
+    scene: DegreeModifiers
+    content: content/en/spelling.md
+  - id: reading-signatures
+    scene: ReadingSignatures
+    content: content/en/spelling.md
+
+exercises: []

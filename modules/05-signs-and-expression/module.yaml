@@ -1,0 +1,15 @@
+slug: 05-signs-and-expression
+title: "Playing it right: signs and expression"
+book:
+  chapters: ["IV", "V", "XIII"]
+  pages: "13-21, 56-61"
+
+lessons:
+  - id: dots-ties-slurs
+    scene: DotsTiesSlurs
+    content: content/en/signs-expression.md
+  - id: loud-soft-roadmap
+    scene: LoudSoftAndTheRoadmap
+    content: content/en/signs-expression.md
+
+exercises: []
