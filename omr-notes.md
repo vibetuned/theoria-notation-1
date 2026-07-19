@@ -6,10 +6,14 @@ from the page: pitches and durations are broadly right, but notation
 details are unreliable — enharmonic spelling, ties vs repeated notes,
 voice assignment, grace notes/ornament signs, key signatures).
 
-**Fix workflow**: the course reads from `assets/book/` in THIS repo — fix
-the copies here and commit; the upstream extraction stays as-is. After a
-fix, re-render the lesson(s) listed and rebuild module 08's exercises if
-the file feeds them.
+**Fix workflow**: the course RENDERS from `assets/book/` in THIS repo.
+Fixing upstream in the extraction's `mxl-midi/` is fine too (Pedro's
+usual workflow) — but then the fixes must be SYNCED here before
+re-rendering (`cp` the changed files in, commit). A `cmp` sweep between
+the two trees catches unsynced fixes. After a sync, re-render the
+lesson(s) listed and rebuild module 08's exercises if the file feeds
+them. (2026-07-10: 19 fixed figures were stranded upstream and the first
+re-render used stale copies — now synced.)
 
 ## Files used by the course (25) — the hand-fix checklist
 
