@@ -159,17 +159,19 @@ class AllTheMinorScales(Scene):
             ("harmonic", m21_scale.HarmonicMinorScale),
             ("melodic", m21_scale.MelodicMinorScale),
         )
-        rows_y = (1.15, -0.35, -1.85)
+        rows_y = (1.35, -0.45, -2.25)
+
+        from manimlib import LEFT
 
         # {[2]} Checkpoint: each key — signature above, the three forms below
         for tonic in MINOR_TONICS:
-            signature = _signature_display(self, tonic, y=2.5)
+            signature = _signature_display(self, tonic, y=2.45)
             shown = VGroup(signature)
             for (form_name, form_class), y in zip(forms, rows_y):
                 staff = _staff(34.0, 0.24, y)
                 clef = staff.clef("gClef")
-                form_label = Text(form_name, font_size=22, color=BLUE)
-                form_label.move_to(staff.point_for(2.5, 14))
+                form_label = Text(form_name, font_size=20, color=BLUE)
+                form_label.next_to(staff, LEFT, buff=0.3)
                 self.play(FadeIn(VGroup(staff, clef, form_label)), run_time=0.3)
                 notes = _draw_scale_row(
                     self,
