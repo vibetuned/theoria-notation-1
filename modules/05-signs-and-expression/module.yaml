@@ -5,11 +5,36 @@ book:
   pages: "13-21, 56-61"
 
 lessons:
-  - id: dots-ties-slurs
-    scene: DotsTiesSlurs
-    content: content/en/dots-ties-slurs.md
-  - id: loud-soft-roadmap
-    scene: LoudSoftAndTheRoadmap
-    content: content/en/dynamics-roadmap.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md)
+  - id: ties-and-slurs
+    scene: TiesAndSlurs
+    content: content/en/ties-and-slurs.md
+  - id: dots-and-double-dots
+    scene: DotsAndDoubleDots
+    content: content/en/dots-and-double-dots.md
+  - id: articulation-marks
+    scene: ArticulationMarks
+    content: content/en/articulation-marks.md
+  - id: dynamics-ladder
+    scene: DynamicsLadder
+    content: content/en/dynamics-ladder.md
+  - id: crescendo-and-sforzando
+    scene: CrescendoAndSforzando
+    content: content/en/crescendo-and-sforzando.md
+  - id: repeats-and-endings
+    scene: RepeatsAndEndings
+    content: content/en/repeats-and-endings.md
+  - id: da-capo-al-fine
+    scene: DaCapoAlFine
+    content: content/en/da-capo-al-fine.md
+  - id: dal-segno-al-coda
+    scene: DalSegnoAlCoda
+    content: content/en/dal-segno-al-coda.md
+  - id: the-fermata
+    scene: TheFermata
+    content: content/en/the-fermata.md
+  - id: octave-signs
+    scene: OctaveSigns
+    content: content/en/octave-signs.md
 
 exercises: []

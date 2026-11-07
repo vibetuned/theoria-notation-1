@@ -5,19 +5,49 @@ book:
   pages: "87-94"
 
 lessons:
-  - id: triad-family
-    scene: TheTriadFamily
-    content: content/en/triad-family.md
-  - id: four-cadences
-    scene: TheFourCadences
-    content: content/en/four-cadences.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md);
+  # the cadence videos use the cadence-bass worksheets' own voicings
+  - id: four-kinds-of-triad
+    scene: FourKindsOfTriad
+    content: content/en/four-kinds-of-triad.md
+  - id: triads-of-a-major-key
+    scene: TriadsOfAMajorKey
+    content: content/en/triads-of-a-major-key.md
+  - id: triads-of-a-minor-key
+    scene: TriadsOfAMinorKey
+    content: content/en/triads-of-a-minor-key.md
+  - id: authentic-cadence
+    scene: AuthenticCadence
+    content: content/en/authentic-cadence.md
+  - id: plagal-cadence
+    scene: PlagalCadence
+    content: content/en/plagal-cadence.md
+  - id: half-cadence
+    scene: HalfCadence
+    content: content/en/half-cadence.md
+  - id: deceptive-cadence
+    scene: DeceptiveCadence
+    content: content/en/deceptive-cadence.md
+  - id: perfect-or-imperfect
+    scene: PerfectOrImperfect
+    content: content/en/perfect-or-imperfect.md
+  - id: cadences-in-g-and-f
+    scene: CadencesInGAndF
+    content: content/en/cadences-in-g-and-f.md
 
 # One of the course's three exercise-bearing modules (04, 08, 09): the
 # drill draws its chords from the book's own cadence figures.
 exercises:
-  - type: cadence-naming
+  # the four cadences, one bass note missing in each pair
+  - type: cadence-bass
+    key: C
     items: 4
     seeds: [1, 2]
-  - type: cadence-naming
-    items: 8
-    seeds: [3]
+  - type: cadence-bass
+    key: G
+    items: 4
+    seeds: [1]
+  - type: cadence-bass
+    key: F
+    items: 4
+    seeds: [1]

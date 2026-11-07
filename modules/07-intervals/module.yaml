@@ -5,8 +5,24 @@ book:
   pages: "82-86"
 
 lessons:
-  - id: hearing-intervals
-    scene: HearingIntervals
-    content: content/en/hearing-intervals.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md)
+  - id: harmonic-or-melodic
+    scene: HarmonicOrMelodic
+    content: content/en/harmonic-or-melodic.md
+  - id: counting-staff-degrees
+    scene: CountingStaffDegrees
+    content: content/en/counting-staff-degrees.md
+  - id: counting-half-steps
+    scene: CountingHalfSteps
+    content: content/en/counting-half-steps.md
+  - id: above-the-tonic
+    scene: AboveTheTonic
+    content: content/en/above-the-tonic.md
+  - id: the-quality-ladder
+    scene: TheQualityLadder
+    content: content/en/the-quality-ladder.md
+  - id: inverting-intervals
+    scene: InvertingIntervals
+    content: content/en/inverting-intervals.md
 
 exercises: []

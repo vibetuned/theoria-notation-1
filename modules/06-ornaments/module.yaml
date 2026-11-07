@@ -5,11 +5,21 @@ book:
   pages: "22-26"
 
 lessons:
-  - id: ornament-gallery
-    scene: TheOrnamentGallery
-    content: content/en/ornament-gallery.md
-  - id: leaning-notes
-    scene: TheLeaningNotes
-    content: content/en/leaning-notes.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md)
+  - id: the-trill
+    scene: TheTrill
+    content: content/en/the-trill.md
+  - id: the-mordents
+    scene: TheMordents
+    content: content/en/the-mordents.md
+  - id: the-turn
+    scene: TheTurn
+    content: content/en/the-turn.md
+  - id: the-appoggiatura
+    scene: TheAppoggiatura
+    content: content/en/the-appoggiatura.md
+  - id: the-acciaccatura
+    scene: TheAcciaccatura
+    content: content/en/the-acciaccatura.md
 
 exercises: []

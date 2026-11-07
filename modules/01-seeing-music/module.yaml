@@ -5,11 +5,21 @@ book:
   pages: "1-7"
 
 lessons:
-  - id: seeing-the-staff
-    scene: SeeingTheStaff
-    content: content/en/seeing-the-staff.md
-  - id: how-notes-are-drawn
-    scene: HowNotesAreDrawn
-    content: content/en/how-notes-are-drawn.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md)
+  - id: the-staff
+    scene: TheStaff
+    content: content/en/the-staff.md
+  - id: the-clefs
+    scene: TheClefs
+    content: content/en/the-clefs.md
+  - id: the-great-staff
+    scene: TheGreatStaff
+    content: content/en/the-great-staff.md
+  - id: parts-of-a-note
+    scene: PartsOfANote
+    content: content/en/parts-of-a-note.md
+  - id: stem-direction
+    scene: StemDirection
+    content: content/en/stem-direction.md
 
 exercises: []

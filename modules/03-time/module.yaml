@@ -5,11 +5,24 @@ book:
   pages: "44-55"
 
 lessons:
-  - id: rhythm-versus-measure
-    scene: RhythmVersusMeasure
-    content: content/en/rhythm-vs-measure.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md)
+  - id: rhythm-measure-tempo
+    scene: RhythmMeasureTempo
+    content: content/en/rhythm-measure-tempo.md
+  - id: strong-beats-and-syncopation
+    scene: StrongBeatsAndSyncopation
+    content: content/en/strong-beats-and-syncopation.md
+  - id: simple-and-compound
+    scene: SimpleAndCompound
+    content: content/en/simple-and-compound.md
+  - id: common-and-cut-time
+    scene: CommonAndCutTime
+    content: content/en/common-and-cut-time.md
   - id: tempo-words
-    scene: TheTempoWords
+    scene: TempoWords
     content: content/en/tempo-words.md
+  - id: changing-tempo
+    scene: ChangingTempo
+    content: content/en/changing-tempo.md
 
 exercises: []

@@ -5,24 +5,63 @@ book:
   pages: "27-41"
 
 lessons:
-  - id: all-the-major-scales
-    scene: AllTheMajorScales
-    content: content/en/all-the-major-scales.md
-  - id: all-the-minor-scales
-    scene: AllTheMinorScales
-    content: content/en/all-the-minor-scales.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md)
+  - id: the-major-pattern
+    scene: TheMajorPattern
+    content: content/en/the-major-pattern.md
+  - id: tetrachords
+    scene: Tetrachords
+    content: content/en/tetrachords.md
+  - id: sharp-majors
+    scene: SharpMajors
+    content: content/en/sharp-majors.md
+  - id: flat-majors
+    scene: FlatMajors
+    content: content/en/flat-majors.md
+  - id: enharmonic-scales
+    scene: EnharmonicScales
+    content: content/en/enharmonic-scales.md
+  - id: the-smaller-third
+    scene: TheSmallerThird
+    content: content/en/the-smaller-third.md
+  - id: three-forms-of-a-minor
+    scene: ThreeFormsOfAMinor
+    content: content/en/three-forms-of-a-minor.md
+  - id: sharp-minors
+    scene: SharpMinors
+    content: content/en/sharp-minors.md
+  - id: flat-minors
+    scene: FlatMinors
+    content: content/en/flat-minors.md
 
 # All fifteen keys as exercises, majors and the three minor forms.
 exercises:
+  # graded sheets of three major scales (21 notes each), easy keys first
   - type: scale-steps
-    items: 15
-    seeds: [1]
+    items: 3
+    params: { tonics: [C, G, F] }
   - type: scale-steps
-    items: 8
-    seeds: [2]
+    items: 3
+    params: { tonics: [D, B-, A] }
+  - type: scale-steps
+    items: 3
+    params: { tonics: [E-, E, A-] }
+  - type: scale-steps
+    items: 3
+    params: { tonics: [B, D-, F#] }
+  - type: scale-steps
+    items: 3
+    params: { tonics: [G-, C#, C-] }
+  # one minor key per sheet, all three forms (21 notes)
   - type: minor-scale-steps
-    items: 15
-    seeds: [1]
+    items: 1
+    params: { tonics: [a] }
   - type: minor-scale-steps
-    items: 5
-    seeds: [2]
+    items: 1
+    params: { tonics: [e] }
+  - type: minor-scale-steps
+    items: 1
+    params: { tonics: [d] }
+  - type: minor-scale-steps
+    items: 1
+    params: { tonics: [g] }

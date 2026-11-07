@@ -5,11 +5,24 @@ book:
   pages: "5-12"
 
 lessons:
-  - id: degree-modifiers
-    scene: DegreeModifiers
-    content: content/en/degree-modifiers.md
-  - id: reading-signatures
-    scene: ReadingSignatures
-    content: content/en/reading-signatures.md
+  # short videos, one idea each (on-screen text: content/<lang>/<id>.md)
+  - id: sharp-flat-natural
+    scene: SharpFlatNatural
+    content: content/en/sharp-flat-natural.md
+  - id: double-sharps-and-flats
+    scene: DoubleSharpsAndFlats
+    content: content/en/double-sharps-and-flats.md
+  - id: accidentals-and-bar-lines
+    scene: AccidentalsAndBarLines
+    content: content/en/accidentals-and-bar-lines.md
+  - id: enharmonic-spelling
+    scene: EnharmonicSpelling
+    content: content/en/enharmonic-spelling.md
+  - id: key-signatures
+    scene: KeySignatures
+    content: content/en/key-signatures.md
+  - id: major-or-minor
+    scene: MajorOrMinor
+    content: content/en/major-or-minor.md
 
 exercises: []
